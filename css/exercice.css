@@ -26,12 +26,22 @@
 }
 
 .exercice-order-2 .element {
-  padding-left: 125px;
-  padding-right: 125px;
+  width: 100%;
 }
 
 /* 4. exercice-order-3 */
+.exercice-order-3 .container {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
+.exercice-order-3 .element-red {
+  order: 1;
+}
+
+.exercice-order-3 .element-blue {
+  order: 1;
+}
 
 /* 5. exercice-align-self-1*/
 
